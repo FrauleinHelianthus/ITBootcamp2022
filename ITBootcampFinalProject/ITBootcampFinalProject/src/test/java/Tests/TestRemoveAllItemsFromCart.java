@@ -45,14 +45,9 @@ public class TestRemoveAllItemsFromCart extends BasePage{
             removeButtons.remove(removeButtons.getRemoveTestAllTheThingsTShirtRedButton());
             removeButtons.remove(removeButtons.getRemoveSauceLabsFleeceJacketButton());
             Thread.sleep(2000);
-            boolean cartIsEmpty = true;
-            if(cart.getListItem().size() == 0) {
-                Assert.assertTrue(cartIsEmpty,"The cart is empty");
-                System.out.println("The cart is empty");
-            } else {
-                Assert.assertTrue(!cartIsEmpty,"The cart is not empty");
-                System.out.println("The cart is not empty");
-            }
+
+            Assert.assertTrue(cart.getListItem().size() == 0, "The cart is empty");
+
 
 
         }
