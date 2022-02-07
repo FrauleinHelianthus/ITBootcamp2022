@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="IT Bootcamp Final Project" verbose="1" >
+    <test name="Test Login" >
+        <classes>
+            <class name="Tests.TestLogin" />
+        </classes>
+    </test>
+
+    <test name="Test Select Product" >
+        <classes>
+            <class name="Tests.TestSelectProduct" />
+        </classes>
+    </test>
+
+    <test name="Test Sort Products" >
+        <classes>
+            <class name="Tests.TestSortProducts" />
+        </classes>
+    </test>
+
+    <test name="Test Checkout Selected Products" >
+        <classes>
+            <class name="Tests.TestCheckoutSelectedProducts" />
+        </classes>
+    </test>
+
+    <test name="Test Remove All Items From Cart" >
+        <classes>
+            <class name="Tests.TestRemoveAllItemsFromCart" />
+        </classes>
+    </test>
+
+</suite>

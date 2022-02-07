@@ -1,0 +1,60 @@
+Test Scenario SORT PRODUCTS BY PRICE with successfully registered user
+
+• Test Case Sort Products from Lowest to Highest
+
+      This test verifies that when clicking button sort and choose sorting option "from low to high", sorting funtionality works correctly.
+      The condition is that user is logged in.
+
+      1. Go to https://www.saucedemo.com/inventory.html
+      2. Click on sort button
+      3. Choose "price(low to high)"
+      4. Assert that items have been sorted by price from lowest to highest price
+
+     Test parameters:
+     username : "standard_user"
+     password : "secret_sauce"
+
+Test Case Sort Products from Highest to Lowest
+
+     This test verifies that when clicking button sort and choose sorting option "from high to low", sorting funtionality works correctly.
+     The condition is that user is logged in.
+
+     1. Go to https://www.saucedemo.com/inventory.html
+     2. Click on sort button
+     3. Choose "price(high to low)"
+     4. Assert that items have been sorted by price from highest to lowest price
+
+     Test parameters:
+     username : "standard_user"
+     password : "secret_sauce"
+
+Test Scenario SORT PRODUCTS BY NAME with successfully registered user
+
+• Test Case Sort Products from A to Z
+
+     This test verifies that when clicking button sort and choose sorting option "from A to Z", sorting funtionality works correctly.
+     The condition is that user is logged in.
+
+     1. Go to https://www.saucedemo.com/inventory.html
+     2. Click on sort button
+     3. Choose "Name(A to Z)"
+     4. Assert that items have been sorted by name from A to Z
+
+     Test parameters:
+     username : "standard_user"
+     password : "secret_sauce"
+
+• Test Case Sort Products from Z to A
+
+     This test verifies that when clicking button sort and choose sorting option from Z to A, sorting funtionality works correctly.
+     The condition is that user is logged in.
+
+     1. Go to https://www.saucedemo.com/inventory.html
+     2. Click on sort button
+     3. Choose "Name(Z to A)"
+     4. Assert that items have been sorted by name from Z to A
+
+     Test parameters:
+     username : "standard_user"
+     password : "secret_sauce"
+

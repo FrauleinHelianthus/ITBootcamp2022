@@ -1,0 +1,15 @@
+Test Scenario SELECT PRODUCT with successfully registered user
+
+• Test Case Successfully Registered User Selects Products
+
+This test verifies that standard_user select chosen products and that chosen product are placed into cart.
+The condition is that user is logged in.
+
+1. Go to https://www.saucedemo.com/inventory.html
+2. Click on Sauce Labs Backpack's "add to cart" button
+3. Click on Sauce Labs Onesie's "add to cart" button
+4. Click on Test.allTheThings() T-Shirt (Red)'s "add to cart" button
+5. Click on Sauce Labs Fleece Jacket's "add to cart" button
+6. Assert that there are 4 items places in the cart
+7. Assert that "remove" buttons have been displayed
+

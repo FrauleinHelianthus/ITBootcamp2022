@@ -1,0 +1,17 @@
+Test Scenario REMOVE ALL  ITEMS FROM CART with successfully registered user
+
+• Test Remove All Items From The Cart
+
+     This test case verifies if teha cart is empty when all the items has been removed. The condition is that the user is logged in.
+
+     1. Go to saucedemo.com
+     2. Enter registered username
+     3. Enter registered password
+     4. Choose several product by clicking "add to cart"
+     5. Click on the cart
+     6. Remove all products by clicking on buttons "remove"
+     7. If no products have been diplayed in cart, assert that the cart is empty
+
+     Test parameters:
+     username : "performance_glitch_user"
+     password : "secret_sauce"
